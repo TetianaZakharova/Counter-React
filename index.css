@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: rgb(165, 231, 190);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.decrementButton, .incrementButton, .visibleButton {
+  background-color: #aab2bd;
+  border-radius: 5px;
+  width: 30%;
+  border-color: lightgrey;
+  outline: none;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+.decrementButton {
+  color:blue; 
+}
+
+.incrementButton {
+  color: red;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button:hover{
+  background-color: lightgray;
+  outline: none;
+}
+
+
+
+.counterNow {
+  text-align: center;
+}
+
+.textMessage{
+  text-align: center;
+  color: #360257;
+}
